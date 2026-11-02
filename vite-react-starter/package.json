@@ -9,17 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
-    "react-router-dom": "^6.24.0",
-    "@clavex/react": "latest",
-    "@clavex/ui": "latest"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6",
+    "@clavex/react": "^1.1.0",
+    "@clavex/ui": "^0.1.0"
   },
   "devDependencies": {
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@vitejs/plugin-react": "^4.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
     "typescript": "^5",
-    "vite": "^5.3.0"
+    "vite": "^5.4.21"
   }
 }

@@ -8,7 +8,6 @@ import ProtectedRoute from "./components/ProtectedRoute.js";
 
 function Navbar() {
   const { user, isSignedIn } = useUser();
-  const { signOut } = { signOut: () => {} }; // replaced below
 
   return (
     <nav

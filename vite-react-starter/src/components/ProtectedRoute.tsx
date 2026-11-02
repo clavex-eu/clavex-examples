@@ -2,9 +2,9 @@ import { useUser } from "@clavex/react";
 import { Navigate } from "react-router-dom";
 
 export default function ProtectedRoute({ children }: { children: React.ReactNode }) {
-  const { isSignedIn, isLoading } = useUser();
+  const { isSignedIn, isLoaded } = useUser();
 
-  if (isLoading) {
+  if (!isLoaded) {
     return <p style={{ color: "#6b7280" }}>Loading…</p>;
   }
 
