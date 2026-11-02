@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
  * user's previous location (stored in appState during signIn).
  */
 export default function Callback() {
-  const { handleRedirectCallback } = useHandleRedirectCallback();
+  const handleRedirectCallback = useHandleRedirectCallback();
   const navigate = useNavigate();
 
   useEffect(() => {

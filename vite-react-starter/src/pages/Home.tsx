@@ -1,11 +1,11 @@
 import { useUser, useSignIn, usePasskey } from "@clavex/react";
 
 export default function Home() {
-  const { isSignedIn, isLoading } = useUser();
+  const { isSignedIn, isLoaded } = useUser();
   const { signIn } = useSignIn();
   const { authenticate: passkeyLogin, isSupported: passkeySupported } = usePasskey();
 
-  if (isLoading) return <p style={{ color: "#6b7280" }}>Loading…</p>;
+  if (!isLoaded) return <p style={{ color: "#6b7280" }}>Loading…</p>;
 
   if (isSignedIn) {
     return (

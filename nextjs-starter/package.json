@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^14.2.0",
-    "next-auth": "^5.0.0-beta.25",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
-    "@clavex/nextauth-provider": "latest",
-    "@clavex/react": "latest",
-    "@clavex/ui": "latest"
+    "next": "^14.2.35",
+    "next-auth": "5.0.0-beta.32",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@clavex/nextauth-provider": "^1.0.0",
+    "@clavex/react": "^1.1.0",
+    "@clavex/ui": "^0.1.0"
   },
   "devDependencies": {
     "@types/node": "^20",
